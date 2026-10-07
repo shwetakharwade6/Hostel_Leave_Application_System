@@ -1,0 +1,118 @@
+/* Main container */
+.hod-container {
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 40px;
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+/* Logout button (icon only, small) */
+.logout-btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 34px;
+  height: 34px;
+  background: #e74a4a;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.logout-btn svg {
+  width: 16px;
+  height: 16px;
+  color: #ff9900;
+}
+
+.logout-btn:hover {
+  transform: scale(1.05);
+}
+
+/* Card */
+.hod-card {
+  background: white;
+  color: black;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  max-width: 850px;
+}
+
+/* Title */
+.hod-title {
+  text-align: center;
+  color: #ff9900;
+  margin-bottom: 5px;
+}
+
+/* Subtitle */
+.hod-subtitle {
+  text-align: center;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+/* No requests text */
+.no-requests {
+  text-align: center;
+  color: gray;
+  margin-top: 20px;
+}
+
+/* Table */
+.hod-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.hod-table th {
+  background-color: #ff9900;
+  color: white;
+  padding: 10px;
+}
+
+.hod-table td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Buttons */
+.approve-btn {
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 10px;
+  cursor: pointer;
+  margin-right: 6px;
+  font-weight: bold;
+}
+
+.reject-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.approve-btn:hover {
+  background-color: darkgreen;
+}
+
+.reject-btn:hover {
+  background-color: darkred;
+}

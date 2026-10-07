@@ -1,0 +1,66 @@
+/* Page background */
+.role-container {
+  background: url("../image/background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Card */
+.role-card {
+  background: rgb(231, 232, 235);
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+  width: 400px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  color: #333;
+}
+
+/* Title */
+.role-title {
+  margin-bottom: 20px;
+  color: #764ba2;
+  font-size: 26px;
+}
+
+/* Role buttons */
+.role-btn {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  background: #667eea;
+  color: white;
+  transition: background 0.3s, transform 0.2s;
+}
+
+/* Hover effect */
+.role-btn:hover {
+  background: #764ba2;
+  transform: scale(1.03);
+}
+
+/* Login text */
+.role-login {
+  margin-top: 15px;
+  color: #666;
+  font-size: 14px;
+}
+
+.role-login span {
+  color: #764ba2;
+  cursor: pointer;
+  font-weight: bold;
+}
