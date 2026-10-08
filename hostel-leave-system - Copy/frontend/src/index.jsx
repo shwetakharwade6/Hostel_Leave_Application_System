@@ -7,7 +7,7 @@ import { LeaveProvider } from "./LeaveContext";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <LeaveProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/Hostel_Leave_Application_System">
         <App />
       </BrowserRouter>
     </LeaveProvider>
