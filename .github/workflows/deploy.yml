@@ -22,11 +22,11 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
 
       - name: Install dependencies
         working-directory: "hostel-leave-system - Copy/frontend"
-        run: npm ci
+        run: npm install
 
       - name: Build React app
         working-directory: "hostel-leave-system - Copy/frontend"
