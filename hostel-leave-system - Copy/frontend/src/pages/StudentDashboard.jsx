@@ -30,7 +30,7 @@ export default function StudentDashboard() {
 
         const token = localStorage.getItem("token");
           // Authorization header मध्ये token send करतो.
-        const res = await fetch("http://localhost:5000/api/leaves", {
+        const res = await fetch("https://hostel-leave-application-system.onrender.com/api/leaves", {
           headers: {
             Authorization: `Bearer ${token}`,
           },
@@ -75,7 +75,7 @@ export default function StudentDashboard() {
           
       const token = localStorage.getItem("token");
        //Backend ला POST request.New leave create.
-      const res = await fetch("http://localhost:5000/api/leaves", {
+      const res = await fetch("https://hostel-leave-application-system.onrender.com/api/leaves", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
