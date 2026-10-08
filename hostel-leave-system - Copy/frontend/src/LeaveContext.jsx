@@ -2,7 +2,7 @@ import React, { createContext, useState, useEffect } from "react";
 import axios from "axios";
 
 // Set axios base URL outside component
-axios.defaults.baseURL = 'http://localhost:5000';
+axios.defaults.baseURL = 'https://hostel-leave-application-system.onrender.com';
 
 // Create Context
 export const LeaveContext = createContext();
